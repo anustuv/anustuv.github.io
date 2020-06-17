@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CV - Anustuv Pal</title>
+
+<style>
+body {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	color: #A6B4C4;
+	background-color: #3C3F41;
+}
+
+.content {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-color: #2b2b2b;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.webphoto {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.web {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.photo {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+table, tr, td {border: 1px solid #858585;
+			vertical-align: top;
+}
+
+table {margin-bottom: 0.5cm;}
+
+td {min-width: 4cm;}
+
+ul {list-style: none;}
+
+li {line-height: 1.5;
+	padding-bottom: 0.5cm;
+	text-align: justify;
+}
+
+ul li::before {
+	content: "\2022";
+	font-weight: bold;
+	font-size: 24px;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+	color: #3E86A0;
+
+}
+.center {margin: auto; width: 50%;}
+
+#header {font-size: 24px;
+		text-align:center;
+		color: #BBB529;
+		padding-bottom: 1cm;
+}
+
+#heading {line-height: 3.0;
+		color: #C55C2D;
+		font-weight: bold;
+		font-size: 24px;
+}
+
+a:link {color: #AF00AF;}
+a:visited { color: #FFC76D;}
+a:hover {color: #499C54;}
+a:active {color: #FFFFFF;}
+
+</style>
+</head>
+<body>
+	
+	<div class="content">
+	<div id="header" class="center">
+		CURRICULUM VITAE<br>
+		<b>Anustuv Pal</b><br>
+		DOB: 01-May-1986<br>
+		Email: <a href = "mailto: anustuv@gmail.com">anustuv@gmail.com</a><br>
+	</div>
+	
+	<div class="webphoto">
+		<div class="web">
+			<div id="heading">WEBSITES</div>
+			<a href="https://github.com/gulaki">https://github.com/gulaki</a><br><br>
+			<a href="https://www.linkedin.com/in/anustuv-pal-1bb70126/">https://www.linkedin.com/in/anustuv-pal-1bb70126/</a><br><br>
+			<a href="https://theorycalc.pythonanywhere.com">https://theorycalc.pythonanywhere.com</a><br><br>
+		</div>
+		<div class="photo">
+			<img src="profile.jpg" style="height:2in">
+		</div>
+	</div>
+
+	<div id="heading">RESEARCH EXPERIENCE AND EDUCATION</div>
+
+	<table>
+		<tr>
+			<td>2018-present</td>
+			<td>
+				Research associate at Indian Institute of Science, Bangalore.
+			</td>
+		</tr>
+		<tr>
+			<td>2010-2018</td>
+			<td>
+				<b>Doctor of Philosophy (PhD), <i>Experimental Low Temperature Physics.</i></b><br>
+				<b>Institute:</b> Indian Institute of Science, Bangalore, India.<br><br>
+
+				<b>Doctoral Thesis:</b> Electron bubbles in liquid Helium <br>
+				<b>Supervisor:</b> Dr. Ambarish Ghosh
+			</td>
+		</tr>
+		<tr>
+			<td>2009-2010</td>
+			<td>
+				<b>Master’s Thesis at <i>University of Pune</i>.</b><br>
+				<b>Thesis title:</b> Study of Squeezed states and coherent states of the 1D, 2D and 3D quantum Harmonic Oscillators.<br>
+				<b>Supervisor:</b> Dr. P. S. Joag.
+			</td>
+		</tr>
+		<tr>
+			<td>2007-2010</td>
+			<td>
+				<b>Master of Science (MSc), Physics.</b><br>
+				University of Pune, India
+			</td>
+		</tr>
+		<tr>
+			<td>2008</td>
+			<td>
+				<b>Master’s External Project at <i>S.N. Bose National Center for Basic Sciences</i>.</b><br>
+				<b>Project Title:</b> Numerical solutions of 1D, 2D and 3D Schrodinger 
+				equation using finite difference time domain (FDTD) method.<br>
+				<b>Supervisor:</b> Dr. Sumita Dutta.
+			</td>
+		</tr>
+		<tr>
+			<td>2004-2007</td>
+			<td>
+				<b>Bachelor of Science (BSc with Honors), Physics.</b><br>
+				<b>Institute:</b> St. Xavier’s College, Calcutta University, India.
+			</td>
+		</tr>
+		<tr>
+			<td>2004</td>
+			<td>
+				<b>Indian School Certificate (ISC) examination</b><br>
+				Don Bosco Park Circus, Kolkata, India.
+			</td>
+		</tr>
+		<tr>
+			<td>2002</td>
+			<td>
+				<b>Indian Certificate Secondary Examination.</b><br>
+				Don Bosco School, Park Circus, Kolkata, Park Circus.
+			</td>
+		</tr>
+	</table>
+	
+	<div id="heading">COMPUTATIONAL PROJECTS</div>
+	
+	<ul>
+		<li>Solved for quantum mechanical ground state and excited state energy and wavefunctions for arbitrary 1D, 2D and 3D potentials using time dependent finite element method in C++.</li>
+		
+		<li>Solved for quantum mechanical coherent and squeezed states in C++ for studying properties and experimental methods to generate squeezed states.</li>
+		
+		<li>Simulated physical phenomena like electric fields and heat flow in COMSOL MultiPhysics to design low temperature experiments.</li>
+		
+		<li>Built several LABView programs to set up experimental signal chains, data acquisition cards, synchronized various electronic equipment (oscilloscopes, signal generators, etc.) for automating experimental tool chains.</li>
+		
+		<li>Built complete software suite in MATLAB for analysis of large volumes of experimentally captured video data for object tracking, extraction of various data like particle trajectories, particle sizes, and temporal behavior. We optimized numerical simulations on experimentally derived trajectories to predict physical properties like radius and charge of the tracked objects.</li>
+		
+		<li>Developed numerical calculation for propagation of acoustic waves from piezo-electric transducer of any geometry.</li>
+		
+		<li>Built performant time dependent finite element simulation to solve complex system of coupled non-linear inhomogeneous partial differential equations (Navier-Stokes equation + Heat equation with convection) to simulate heat flow around bubbles in liquid environment to predict collapse dynamics.</li>
+		
+		<li>Built a simulation using Monte-Carlo algorithms to solve for optical absorption in a large population of quantum mechanical objects affected by mechanical pressure waves.</li>
+		
+		<li>Built a simulation of an experiment for optical absorption spectroscopy. The natural phenomenon under study depends on several external controllable parameters and internal parameters. The simulation enabled us to improve the expected signal to noise ratio, optimize for favorable experimental conditions, and study the feasibility and determine the specifications of equipment required.</li>
+		
+		<li>Used low level BLAS and LAPACK subroutines in FORTRAN to calculate eigenvalues for simple 1D quantum systems.</li>
+		
+		<li>Wrote various Python scripts for automation of data analysis and build executions.</li>
+		
+		<li>Presently developing large software for musical composition in Python as a hobby project.</li>
+		
+		<li>Presently investigating machine learning through keras and tensorflow2.0 in order to automate object tracking in large volumes of experimentally obtained video data.</li>
+	</ul>
+	
+	<div id="heading">EXPERIMENTAL PROJECTS</div>
+	
+	<ul>
+		<li>Designed parts of cryogenic system in AutoCAD. The in house built cryogenic system was capable of reaching 1.3 K by evaporative cooling. Designed and fabricated stainless experimental cell to house low temperature experiments performed in liquid Helium 4.</li>
+		
+		<li>Performed rigorous leak tests on vacuum devices and various solder and weld joints for building hermitically sealed systems.</li>
+		
+		<li>Worked with high energy Carbon Dioxide laser and optical experiments in visible and infra-red spectrum.</li>
+		
+		<li>Designed and built electromagnetic quadrupolar Paul trap to trap charged particles in liquid Helium for extended periods of time.</li>
+		
+		<li>Used and setup optics and imaging system for Photron high speed camera for video data capture at 20,000 frames per second.</li>
+		
+		<li>Used Arduino microcontroller to control stepper motor and other electronic devices. It was used to study possible new techniques in measurement of laser signals absorbed by experimental sample.</li>
+	</ul>
+	
+	<div id="heading">PUBLICATIONS</div>
+	
+	<ul>
+		<li><b>A. Pal</b>, D. Morrill, A. Ghosh. <i>“Feasibility of 1s-1p-1d optical absorption measurements on electron bubbles in liquid Helium”</i> (manuscript in preparation).</li>
+		
+		<li><b>A. Pal</b>, N. Yadav, V. Vadakkumbatt, A. Ghosh. <i>“Lifetime of electron bubbles in 1P state close to lambda point”</i> (submitted to journal)</li>
+		
+		<li><b>A. Pal</b>, E. M. Joseph, V. Vadakkumbatt, N. Yadav, V. Srinivasan, H. J. Maris, A. Ghosh. <i>“Collapse of vapor-filled bubbles in liquid helium”</i>, Journal of Low temperature physics (2016).</li>
+		
+		<li>E. M. Joseph, V. Vadakkumbatt, <b>A. Pal</b>, A. Ghosh. <i>"Stable Trapping of Multielectron Helium Bubbles in a Paul Trap."</i> Journal of Low Temperature Physics (2016): 1-8.</li>
+		
+		<li>E. M. Joseph, V. Vadakkumbatt, <b>A. Pal</b>, A. Ghosh. <i>"High speed imaging of generation and collapse of multielectron bubbles in liquid helium."</i> Journal of Low Temperature Physics 175.1-2 (2014): 78-84.</li>
+		
+		<li>V. Vadakkumbatt, E. M. Joseph, <b>A. Pal</b>, A. Ghosh. <i>"Studying electrons on curved surfaces by trapping and manipulating multielectron bubbles in liquid helium."</i> Nature communications 5 (2014).</li>
+		
+		<li>V. Vadakkumbatt, E. M. Joseph, <b>A. Pal</b>, A. Ghosh. <i>"Surface instabilities and generation of multielectron bubbles under pulsed electric fields."</i> Journal of Low Temperature Physics 171.3-4 (2013): 239-244.</li>
+		
+	</ul>
+	<div id="heading">COMPUTATIONAL SKILLS</div>
+	
+	<table>
+		<tr>
+			<td>MATLAB</td>
+			<td>Video analysis, object tracking, simulations and visualizations, scientific software development, digital signal processing, general computation.</td>
+		<tr>
+		<tr>
+			<td>LabView</td>
+			<td>device control, synchronization, data acquisition, building virtual instruments.</td>
+		<tr>
+		<tr>
+			<td>Python</td>
+			<td>Scripting, test driven + version controlled software development, web development using Flask, Matplotlib, cython, Python C extensions, pandas, numpy, SciPy, scikit-learn, Sphinx documentation, multiprocessing, multithreading, asyncio, general problem solving, hobby projects, proficient in PyCharm and jupyter notebook.</td>
+		<tr>
+		<tr>
+			<td>Machine Learning and AI</td>
+			<td>Scipy, scikit-learn, keras (learning), tensorflow2.0 (learning).</td>
+		<tr>
+		<tr>
+			<td>C++ and C</td>
+			<td>Developed several simulations using Finite element methods, Monte Carlo methods, solved complex systems of partial inhomogeneous differential equations.</td>
+		<tr>
+		<tr>
+			<td>Gnuplot, Origin Lab</td>
+			<td>scripting and prototyping visualizations. Data analysis, graphing and visualization.</td>
+		<tr>
+		<tr>
+			<td>AutoCAD, Adobe Illustrator, Krita, Tikz</td>
+			<td>Design and illustration</td>
+		<tr>
+		<tr>
+			<td>COMSOL MultiPhysics</td>
+			<td>Problem solving and simulation, experimental design parameters.</td>
+		<tr>
+		<tr>
+			<td>Fortran, Visual Studio 2005</td>
+			<td>Have used in the past.</td>
+		<tr>
+		<tr>
+			<td>General skills</td>
+			<td>LATEX, presentations, HTML, CSS, ability to learn software and languages and packages quickly.</td>
+		<tr>
+
+	</table>
+
+	<div id="heading">CONFERENCE PRESENTATIONS/WORKSHOPS</div>
+	
+	<ul>
+		<li>International conference on “Electrons in liquid Helium”, Bangalore, 2020 (Poster presentation)</li>
+		
+		<li>International conference on Quantum Fluids and Solids, Prague, Czech Republic, 2016 (Poster presentation)</li>
+	</ul>
+	
+	<div id="heading">FELLOWSHIPS AND AWARDS</div>
+	
+	<table>
+		<tr>
+			<td>2020</td>
+			<td>Certificate for course “Essentials of Machine Learning” from AILabs, Kolkata.</td>
+		<tr>
+		<tr>
+			<td>2016</td>
+			<td>GARP Travel grant for attending conference at Prague, CZ, awarded by Indian Institute of Science</td>
+		<tr>
+		<tr>
+			<td>2012</td>
+			<td>Senior Research Fellowship awarded by Council of Scientific and Industrial Research (CSIR) to pursue doctorate studies.</td>
+		<tr>
+		<tr>
+			<td>2010</td>
+			<td>Junior Research Fellowship awarded by Council of Scientific and Industrial Research (CSIR) to pursue doctorate studies. (CSIR-National Eligibility Test All India Rank 137)</td>
+		<tr>
+		<tr>
+			<td>2003</td>
+			<td>Winner of state level inter-school “Birla Industrial and Technological Museum Computer Quiz”</td>
+		<tr>
+	
+	</table>
+	<div id="heading">TEACHING EXPERIENCE</div>
+
+	<ul>
+		<li>Teaching assistant at IISc, Bangalore for undergraduate experimental course (1 semester).</li>
+		<li>Taught Physics at a Narayana Olympiad School, Bangalore for 6 months (May-Oct, 2018).</li>
+	</ul>
+	
+	</div>
+</body>
+</html>
